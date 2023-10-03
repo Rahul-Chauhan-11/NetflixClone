@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo>a>img{
+    height: 185px;
+    position: relative;
+    top:-50px;
+    left: 40px;
+}
+.signin{
+    width: 300px;
+    height: 500px;
+    margin: 0px auto;
+    padding-top: 35px;
+    padding-left: 90px;
+    background-color: rgba(0, 0, 0, 0.799);
+    border-radius: 5px;
+    color: white;
+    
+
+}
+.signin>p{
+    color: white;
+    font-size: 2em;
+}
+.signin>form{
+    margin-top: 20px;
+}
+.signin>button{
+    width: 220px;
+    border-radius: 3px;
+    margin-top: 25px;
+    height: 32px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: 0px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.mail{
+    display: block;
+    width: 200px;
+    height: 39px;
+    border: 0px;
+    border-radius: 2px;
+    margin-top: 12px;
+    background-color:rgba(128, 128, 128, 0.467);
+    padding-left: 20px;
+    color: white;
+}
+.signin>form>:placeholder-shown{
+    color: white;
+    padding-left: 20px;
+
+}
+.help>a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+.bottom>input{
+    /* background:rgba(128, 128, 128, 0.314) ; */
+    accent-color:rgba(128, 128, 128, 0.53);
+}
+.help>a:nth-child(2){
+    margin-left: 57px;
+}
+.more{
+    margin-top: 70px;
+}
+.more>span{
+    color: rgba(128, 128, 128, 0.863);
+    font-size: 1.2em;
+}
+.more>p{
+    margin-top: 8px;
+    color: rgba(128, 128, 128, 0.611);
+    font-size: 0.7e;
+}
+.mail:focus{
+    outline: none;
+}
+.mail:focus ::placeholder{
+    margin-bottom: 6px;
+}
+.back>img{
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 110%;
+    width: 100%;
+    position: absolute;
+    filter: brightness(0.5);
+    z-index: -1;
+}
